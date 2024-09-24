@@ -11,6 +11,7 @@ import requests
 api_key='QRDMyy_zsH6nYwHwApvJ6tdiU88etVu2'
 ticker= 'MCD'
 
+
 #3- Creamos una funcion para obtener los datos de la API de Polygon 
 #3.1- Los datos los pasamos a un archivo json y si la conexion es exitosa lo convertimos en un DataFrame
 #3.2- En caso de que la conexión no sea exitosa le pedimos al sistema que nos avise y devuelva el df vacio 
