@@ -118,7 +118,7 @@ test_plot= np.empty_like(scaled_data)
 test_plot[:, :]=np.nan 
 test_plot[len(train_predict)+ (time_step*2)+1:len(scaled_data)-1,:]=test_predict
 """
-# 15 - Graficamos y guardar los datos
+# 15 - Graficamos y guardamos los datos
 plt.figure(figsize=(12, 6))
 plt.plot(scaler.inverse_transform(scaled_data), label='Original Data')
 plt.plot(train_plot, label='Training Predictions')
